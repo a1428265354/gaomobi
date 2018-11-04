@@ -1,20 +1,25 @@
-package leetCode.cn;
+package leetcode.cn;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Map;
 import java.util.Map.Entry;
 
-import leetCode.cn.node.ListNode;
-
+import leetcode.cn.node.ListNode;
+/**
+ * leetcode的一些题
+ * @author 1428265354@qq.com
+ *
+ */
 public class Solution {
-	/*
-	 * 关键词 paragraph = "Bob hit a ball, the hit BALL flew far after it was hit."
+	/**
+	 *    * 关键词 paragraph = "Bob hit a ball, the hit BALL flew far after it was hit."
 	 * banned = ["hit"] 输出: "ball"
 	 * https://leetcode-cn.com/problems/most-common-word/description/
+	 * @param paragraph   // 元字符
+	 * @param banned      // 关键字
+	 * @return
 	 */
 	public String mostCommonWord(String paragraph, String[] banned) {
 		paragraph = paragraph.toLowerCase();

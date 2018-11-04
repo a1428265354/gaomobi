@@ -1,4 +1,4 @@
-package leetCode.cn.node;
+package leetcode.cn.node;
 
 public class ListNode {
 

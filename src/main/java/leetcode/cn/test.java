@@ -1,6 +1,6 @@
-package leetCode.cn;
+package leetcode.cn;
 
-import leetCode.cn.node.ListNode;
+import leetcode.cn.node.ListNode;
 
 public class test {
 
@@ -17,18 +17,18 @@ public class test {
 		 * b.hashCode());
 		 */
 		test name = new test();
-		name.PrintN2(10);
+		name.printN2(10);
 	}
 
-	void PrintN1(int n) {
+	void printN1(int n) {
 		for (int i = 0; i < n; i++) {
 			System.out.println(i);
 		}
 	}
 
-	void PrintN2(int n) {
+	void printN2(int n) {
 		if (n != 0) {
-			PrintN2(n - 1);
+			printN2(n - 1);
 			System.out.println(n);
 		}
 	}
