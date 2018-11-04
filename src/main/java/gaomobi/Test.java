@@ -8,16 +8,25 @@ import java.util.Random;
 
 /*	输入:4332314
  * 	输出:4321
+ * 	要求 : 不改变顺序的情况下去重
+ */
+
+/**	
+ * 	看到的题
+ *	输入:4332314
+ * 	输出:4321
+ * 	要求 : 不改变顺序的情况下去重 
+ * @author Administrator
+ *
  */
 public class Test {
 
 	public static void main(String[] args) throws IOException {
-		int in_num = 423234;
-		String ofnum = String.valueOf(in_num);
+		int inNum = 551251251;
+		String ofnum = String.valueOf(inNum);
 		String[] numArray = ofnum.split("");
 		String result = "";
 
-		List<Object> flist = new ArrayList<Object>();
 		for (int i = 0; i < numArray.length; i++) {
 			if (result.contains(numArray[i])) {
 				continue;
